@@ -123,5 +123,3 @@ while True:
         elif total_player > total_dealer and total_dealer > 17:
             print("You win//Dealer loss")
             exit()
-        elif total_dealer < 20:
-            pass
