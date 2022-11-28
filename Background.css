@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amiri:wght@400;700&family=Kalam:wght@300;400;700&family=Kanit:wght@100;300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain header {
+    z-index: 10;
+    position: absolute;
+}
+
+.bg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contain_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    z-index: 10;
+    background-color: bisque;
+    width: 22.3rem;
+    height: 4.7rem;
+    opacity: 0.85;
+    border-radius: 0.5rem;
+    top: 85%;
+    left: 75%;
+}
+
+.contain_btn button{
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 0.5rem;
+    padding: 0;
+    border: transparent;
+    margin-left: 0.5rem;
+}
+
+.img_btn{
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 0.5rem;
+    padding: 0;
+}
+
+.contain input {
+    display: none;
+}
+
+.upload_icon {
+    top: 87%;
+    left: 71%;
+    z-index: 10;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0 transparent;
+}
